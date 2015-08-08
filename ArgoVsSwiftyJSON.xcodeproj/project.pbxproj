@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D647991E1B73631F0006A687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647991D1B73631F0006A687 /* AppDelegate.swift */; };
+		D64799201B73631F0006A687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647991F1B73631F0006A687 /* ViewController.swift */; };
+		D64799231B73631F0006A687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64799211B73631F0006A687 /* Main.storyboard */; };
+		D64799251B73631F0006A687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64799241B73631F0006A687 /* Assets.xcassets */; };
+		D64799281B73631F0006A687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64799261B73631F0006A687 /* LaunchScreen.storyboard */; };
+		D64799331B73631F0006A687 /* ArgoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64799321B73631F0006A687 /* ArgoTest.swift */; };
+		D647993F1B7363860006A687 /* Argo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647993D1B7363860006A687 /* Argo.swift */; };
+		D64799401B7363860006A687 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647993E1B7363860006A687 /* SwiftyJSON.swift */; };
+		D64799421B7363980006A687 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64799411B7363980006A687 /* User.swift */; };
+		D647994E1B7364AF0006A687 /* Argo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D64799431B7364A60006A687 /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D64799501B7364AF0006A687 /* Curry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D64799441B7364A60006A687 /* Curry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D64799521B7364AF0006A687 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D64799451B7364A60006A687 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D64799541B7364AF0006A687 /* Runes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D64799461B7364A60006A687 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D64799561B7364AF0006A687 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D64799471B7364A60006A687 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D64799581B7365160006A687 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64799431B7364A60006A687 /* Argo.framework */; };
+		D64799591B7365160006A687 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64799441B7364A60006A687 /* Curry.framework */; };
+		D647995A1B7365160006A687 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64799451B7364A60006A687 /* Result.framework */; };
+		D647995B1B7365160006A687 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64799461B7364A60006A687 /* Runes.framework */; };
+		D647995C1B7365160006A687 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64799471B7364A60006A687 /* SwiftyJSON.framework */; };
+		D647995D1B7365160006A687 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64799431B7364A60006A687 /* Argo.framework */; };
+		D647995E1B7365170006A687 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64799441B7364A60006A687 /* Curry.framework */; };
+		D647995F1B7365170006A687 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64799451B7364A60006A687 /* Result.framework */; };
+		D64799601B7365170006A687 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64799461B7364A60006A687 /* Runes.framework */; };
+		D64799611B7365170006A687 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64799471B7364A60006A687 /* SwiftyJSON.framework */; };
+		D64799631B7369310006A687 /* SwiftyJSONTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64799621B7369310006A687 /* SwiftyJSONTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D647992F1B73631F0006A687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D64799121B73631F0006A687 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64799191B73631F0006A687;
+			remoteInfo = ArgoVsSwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D64799571B7364AF0006A687 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D64799541B7364AF0006A687 /* Runes.framework in Embed Frameworks */,
+				D64799521B7364AF0006A687 /* Result.framework in Embed Frameworks */,
+				D64799501B7364AF0006A687 /* Curry.framework in Embed Frameworks */,
+				D647994E1B7364AF0006A687 /* Argo.framework in Embed Frameworks */,
+				D64799561B7364AF0006A687 /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D647991A1B73631F0006A687 /* ArgoVsSwiftyJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArgoVsSwiftyJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D647991D1B73631F0006A687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D647991F1B73631F0006A687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D64799221B73631F0006A687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D64799241B73631F0006A687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D64799271B73631F0006A687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D64799291B73631F0006A687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D647992E1B73631F0006A687 /* ArgoVsSwiftyJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArgoVsSwiftyJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64799321B73631F0006A687 /* ArgoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgoTest.swift; sourceTree = "<group>"; };
+		D64799341B73631F0006A687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D647993D1B7363860006A687 /* Argo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Argo.swift; sourceTree = "<group>"; };
+		D647993E1B7363860006A687 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		D64799411B7363980006A687 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D64799431B7364A60006A687 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
+		D64799441B7364A60006A687 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = Carthage/Build/iOS/Curry.framework; sourceTree = "<group>"; };
+		D64799451B7364A60006A687 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		D64799461B7364A60006A687 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
+		D64799471B7364A60006A687 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		D64799621B7369310006A687 /* SwiftyJSONTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSONTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D64799171B73631F0006A687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D647995B1B7365160006A687 /* Runes.framework in Frameworks */,
+				D647995A1B7365160006A687 /* Result.framework in Frameworks */,
+				D64799591B7365160006A687 /* Curry.framework in Frameworks */,
+				D64799581B7365160006A687 /* Argo.framework in Frameworks */,
+				D647995C1B7365160006A687 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D647992B1B73631F0006A687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64799601B7365170006A687 /* Runes.framework in Frameworks */,
+				D647995F1B7365170006A687 /* Result.framework in Frameworks */,
+				D647995E1B7365170006A687 /* Curry.framework in Frameworks */,
+				D647995D1B7365160006A687 /* Argo.framework in Frameworks */,
+				D64799611B7365170006A687 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D64799111B73631F0006A687 = {
+			isa = PBXGroup;
+			children = (
+				D64799431B7364A60006A687 /* Argo.framework */,
+				D64799441B7364A60006A687 /* Curry.framework */,
+				D64799451B7364A60006A687 /* Result.framework */,
+				D64799461B7364A60006A687 /* Runes.framework */,
+				D64799471B7364A60006A687 /* SwiftyJSON.framework */,
+				D647991C1B73631F0006A687 /* ArgoVsSwiftyJSON */,
+				D64799311B73631F0006A687 /* ArgoVsSwiftyJSONTests */,
+				D647991B1B73631F0006A687 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D647991B1B73631F0006A687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D647991A1B73631F0006A687 /* ArgoVsSwiftyJSON.app */,
+				D647992E1B73631F0006A687 /* ArgoVsSwiftyJSONTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D647991C1B73631F0006A687 /* ArgoVsSwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				D647991D1B73631F0006A687 /* AppDelegate.swift */,
+				D647991F1B73631F0006A687 /* ViewController.swift */,
+				D64799411B7363980006A687 /* User.swift */,
+				D647993D1B7363860006A687 /* Argo.swift */,
+				D647993E1B7363860006A687 /* SwiftyJSON.swift */,
+				D64799211B73631F0006A687 /* Main.storyboard */,
+				D64799241B73631F0006A687 /* Assets.xcassets */,
+				D64799261B73631F0006A687 /* LaunchScreen.storyboard */,
+				D64799291B73631F0006A687 /* Info.plist */,
+			);
+			path = ArgoVsSwiftyJSON;
+			sourceTree = "<group>";
+		};
+		D64799311B73631F0006A687 /* ArgoVsSwiftyJSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				D64799321B73631F0006A687 /* ArgoTest.swift */,
+				D64799621B7369310006A687 /* SwiftyJSONTest.swift */,
+				D64799341B73631F0006A687 /* Info.plist */,
+			);
+			path = ArgoVsSwiftyJSONTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D64799191B73631F0006A687 /* ArgoVsSwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64799371B73631F0006A687 /* Build configuration list for PBXNativeTarget "ArgoVsSwiftyJSON" */;
+			buildPhases = (
+				D64799161B73631F0006A687 /* Sources */,
+				D64799171B73631F0006A687 /* Frameworks */,
+				D64799181B73631F0006A687 /* Resources */,
+				D64799571B7364AF0006A687 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArgoVsSwiftyJSON;
+			productName = ArgoVsSwiftyJSON;
+			productReference = D647991A1B73631F0006A687 /* ArgoVsSwiftyJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D647992D1B73631F0006A687 /* ArgoVsSwiftyJSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D647993A1B73631F0006A687 /* Build configuration list for PBXNativeTarget "ArgoVsSwiftyJSONTests" */;
+			buildPhases = (
+				D647992A1B73631F0006A687 /* Sources */,
+				D647992B1B73631F0006A687 /* Frameworks */,
+				D647992C1B73631F0006A687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D64799301B73631F0006A687 /* PBXTargetDependency */,
+			);
+			name = ArgoVsSwiftyJSONTests;
+			productName = ArgoVsSwiftyJSONTests;
+			productReference = D647992E1B73631F0006A687 /* ArgoVsSwiftyJSONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D64799121B73631F0006A687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = koherent.org;
+				TargetAttributes = {
+					D64799191B73631F0006A687 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D647992D1B73631F0006A687 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D64799191B73631F0006A687;
+					};
+				};
+			};
+			buildConfigurationList = D64799151B73631F0006A687 /* Build configuration list for PBXProject "ArgoVsSwiftyJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D64799111B73631F0006A687;
+			productRefGroup = D647991B1B73631F0006A687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D64799191B73631F0006A687 /* ArgoVsSwiftyJSON */,
+				D647992D1B73631F0006A687 /* ArgoVsSwiftyJSONTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D64799181B73631F0006A687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64799281B73631F0006A687 /* LaunchScreen.storyboard in Resources */,
+				D64799251B73631F0006A687 /* Assets.xcassets in Resources */,
+				D64799231B73631F0006A687 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D647992C1B73631F0006A687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D64799161B73631F0006A687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64799201B73631F0006A687 /* ViewController.swift in Sources */,
+				D647993F1B7363860006A687 /* Argo.swift in Sources */,
+				D647991E1B73631F0006A687 /* AppDelegate.swift in Sources */,
+				D64799421B7363980006A687 /* User.swift in Sources */,
+				D64799401B7363860006A687 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D647992A1B73631F0006A687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64799331B73631F0006A687 /* ArgoTest.swift in Sources */,
+				D64799631B7369310006A687 /* SwiftyJSONTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D64799301B73631F0006A687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64799191B73631F0006A687 /* ArgoVsSwiftyJSON */;
+			targetProxy = D647992F1B73631F0006A687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D64799211B73631F0006A687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64799221B73631F0006A687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D64799261B73631F0006A687 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64799271B73631F0006A687 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D64799351B73631F0006A687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D64799361B73631F0006A687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D64799381B73631F0006A687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ArgoVsSwiftyJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.ArgoVsSwiftyJSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D64799391B73631F0006A687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ArgoVsSwiftyJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.ArgoVsSwiftyJSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D647993B1B73631F0006A687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ArgoVsSwiftyJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.ArgoVsSwiftyJSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArgoVsSwiftyJSON.app/ArgoVsSwiftyJSON";
+			};
+			name = Debug;
+		};
+		D647993C1B73631F0006A687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ArgoVsSwiftyJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.koherent.ArgoVsSwiftyJSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArgoVsSwiftyJSON.app/ArgoVsSwiftyJSON";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D64799151B73631F0006A687 /* Build configuration list for PBXProject "ArgoVsSwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64799351B73631F0006A687 /* Debug */,
+				D64799361B73631F0006A687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64799371B73631F0006A687 /* Build configuration list for PBXNativeTarget "ArgoVsSwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64799381B73631F0006A687 /* Debug */,
+				D64799391B73631F0006A687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D647993A1B73631F0006A687 /* Build configuration list for PBXNativeTarget "ArgoVsSwiftyJSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D647993B1B73631F0006A687 /* Debug */,
+				D647993C1B73631F0006A687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D64799121B73631F0006A687 /* Project object */;
+}

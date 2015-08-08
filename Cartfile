@@ -1,0 +1,5 @@
+github "thoughtbot/Argo" "td-swift-2"
+github "thoughtbot/Curry" "master"
+github "thoughtbot/Runes" "v3.0.0-rc.2"
+github "SwiftyJSON/SwiftyJSON" "xcode7"
+github "antitypical/Result" ~> 0.6
