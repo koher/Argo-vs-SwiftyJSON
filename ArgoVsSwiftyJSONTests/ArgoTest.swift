@@ -26,7 +26,7 @@ class ArgoTest: XCTestCase {
             let user: Decoded<User> = decode(jsonObject("{\"nickname\" : \"Foo\", \"age\" : 30, \"admin\" : false}"))
 
             switch user {
-            case .MissingKey(let message):
+            case .Failure(.MissingKey(let message)):
                 XCTAssertEqual(message, "id")
             default:
                 XCTFail()
@@ -51,7 +51,7 @@ class ArgoTest: XCTestCase {
             let user: Decoded<User> = decode(jsonObject("{\"id\" : \"a082b4fe\", \"nickname\" : \"Foo\", \"age\" : -1, \"admin\" : false}"))
 
             switch user {
-            case .TypeMismatch(let message):
+            case .Failure(.Custom(let message)):
                 XCTAssertEqual(message, "age: Out of range (-1)")
             default:
                 XCTFail()
@@ -62,7 +62,7 @@ class ArgoTest: XCTestCase {
             let user: Decoded<User> = decode(jsonObject("{\"id\" : \"a082b4fe\", \"nickname\" : \"Foo\", \"admin\" : false}"))
             
             switch user {
-            case .MissingKey(let message):
+            case .Failure(.MissingKey(let message)):
                 XCTAssertEqual(message, "age")
             default:
                 XCTFail()

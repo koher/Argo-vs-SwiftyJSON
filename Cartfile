@@ -1,5 +1,5 @@
-github "thoughtbot/Argo" "td-swift-2"
+github "thoughtbot/Argo" "master"
 github "thoughtbot/Curry" "master"
 github "thoughtbot/Runes" "master"
-github "SwiftyJSON/SwiftyJSON" "xcode7"
+github "SwiftyJSON/SwiftyJSON" ~> 2.0
 github "antitypical/Result" ~> 0.6
