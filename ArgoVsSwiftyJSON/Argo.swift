@@ -7,8 +7,8 @@ extension User: Decodable {
         return curry(User.init)
             <^> json <| "id"
             <*> json <|? "nickname"
-            <*> (json <| "age").flatMap { $0 >= 0 ? pure($0)
-                : .customError("age: Out of range (\($0))") }
+            <*> (json <| "age" >>- { $0 >= 0 ? pure($0)
+                : .customError("age: Out of range (\($0))") })
             <*> (json <|? "admin").map { $0 ?? false }
     }
 }
