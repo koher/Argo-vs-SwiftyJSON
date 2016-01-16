@@ -9,20 +9,14 @@ Initialization
 Execute the following command using [Carthage](https://github.com/Carthage/Carthage).
 
 ```bash
-carthage bootstrap
+carthage bootstrap --platform ios
 ```
 
-To use Xcode 7 to bulild the libraries, execute the following command before `carthage bootstrap`.
-
-```bash
-sudo xcode-select -s /Applications/Xcode-beta.app/Contents/Developer
-```
-
-Parsing JSONs
+Decoding JSONs
 -----------------------------------
 
-- [Argo.swift](ArgoVsSwiftyJSON/Argo.swift): How to parse JSONs with Argo
-- [SwiftyJSON.swift](ArgoVsSwiftyJSON/SwiftyJSON.swift): How to parse JSONs with SwiftyJSON
+- [Argo.swift](ArgoVsSwiftyJSON/Argo.swift): How to decode JSONs with Argo
+- [SwiftyJSON.swift](ArgoVsSwiftyJSON/SwiftyJSON.swift): How to decode JSONs with SwiftyJSON
 
 Run
 -----------------------------------

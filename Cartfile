@@ -1,5 +1,5 @@
-github "thoughtbot/Argo" "master"
-github "thoughtbot/Curry" "master"
-github "thoughtbot/Runes" "master"
+github "thoughtbot/Argo" ~> 2.0
+github "thoughtbot/Curry" ~> 1.0
+github "thoughtbot/Runes" ~> 3.0
 github "SwiftyJSON/SwiftyJSON" ~> 2.0
-github "antitypical/Result" ~> 0.6
+github "antitypical/Result" ~> 1.0
